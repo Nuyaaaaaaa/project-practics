@@ -1,0 +1,52 @@
+@use '../blocks/header';
+@use '../blocks/footer';
+
+@font-face {
+    font-family: 'Heebo-Light';
+    src: url('../fonts/Heebo-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo-Bold';
+    src: url('../fonts/Heebo-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Yantramanav-Bold';
+    src: url('../fonts/Yantramanav-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+$light-font: 'Heebo-Light';
+$bold-font: 'Heebo-Bold';
+$title-bold-font: 'Yantramanav-Bold';
+$container-max-width: 1300px;
+$container-padding-x: 12px;
+
+body {
+    font-family: $bold-font;
+    .container {
+        max-width: calc($container-max-width + $container-padding-x * 2);
+        padding-inline: $container-padding-x;
+    }
+}
