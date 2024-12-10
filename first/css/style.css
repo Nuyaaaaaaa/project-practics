@@ -21,6 +21,62 @@
   text-align: center;
 }
 
+.footer {
+  padding: 60px 0 40px 0;
+}
+.footer .footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-wrap .footer-right {
+  display: flex;
+}
+.footer .footer-wrap__right {
+  max-width: 347px;
+  padding: 0 15px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-wrap__block {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.footer .footer-wrap__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer-wrap__top {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-wrap__title {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: var(--second-font);
+}
+.footer .footer-wrap__subtitle {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.footer .footer-wrap h2 {
+  font-size: 20px;
+  line-height: 26px;
+}
+.footer .footer-wrap a {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--black-color);
+  text-decoration: none;
+}
+.footer .footer-wrap__icons {
+  display: flex;
+  gap: 10px;
+}
+
 *,
 *::after,
 *::before {
@@ -527,62 +583,6 @@ body .container {
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
-}
-
-.footer {
-  padding: 60px 0 40px 0;
-}
-.footer .footer-wrap {
-  display: flex;
-  justify-content: space-between;
-}
-.footer .footer-wrap .footer-right {
-  display: flex;
-}
-.footer .footer-wrap__right {
-  max-width: 347px;
-  padding: 0 15px;
-  gap: 20px;
-  display: flex;
-  flex-direction: column;
-}
-.footer .footer-wrap__block {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
-.footer .footer-wrap__text {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.footer .footer-wrap__top {
-  display: flex;
-  flex-direction: column;
-}
-.footer .footer-wrap__title {
-  font-size: 20px;
-  line-height: 24px;
-  font-family: var(--second-font);
-}
-.footer .footer-wrap__subtitle {
-  font-size: 20px;
-  line-height: 24px;
-  text-transform: uppercase;
-}
-.footer .footer-wrap h2 {
-  font-size: 20px;
-  line-height: 26px;
-}
-.footer .footer-wrap a {
-  font-size: 14px;
-  line-height: 24px;
-  color: var(--black-color);
-  text-decoration: none;
-}
-.footer .footer-wrap__icons {
-  display: flex;
-  gap: 10px;
 }
 
 @media (max-width: 1240px) {
